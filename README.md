@@ -52,7 +52,7 @@ Automated AWS Infrastructure deployment using **CloudFormation (IaC)** and **Git
     
 -   **Repo Link:** [https://github.com/minobel/IAC-cloudformation-github-actions](https://github.com/minobel/IAC-cloudformation-github-actions)
     
--   📸 **Proof (Screenshot 1):**  [📁 View GitHub Actions Success Screenshot](https://www.google.com/search?q=./screenshots/actions-success.png)
+-   📸 **Proof (Screenshot 1):**  [📁 View GitHub Actions Success Screenshot](https://github.com/minobel/IAC-cloudformation-github-actions/blob/main/screenshots/actions-success.png)
     
     _(Shows successful workflow execution with green checkmarks)._
     
@@ -63,7 +63,7 @@ Automated AWS Infrastructure deployment using **CloudFormation (IaC)** and **Git
     
 -   **Action:** Verified stack provisioning inside AWS CloudFormation Console.
     
--   📸 **Proof (Screenshot 2):**  [📁 View CloudFormation Stack Status Screenshot](https://www.google.com/search?q=./screenshots/cloudformation-stack.png)
+-   📸 **Proof (Screenshot 2):**  [📁 View CloudFormation Stack Status Screenshot](https://github.com/minobel/IAC-cloudformation-github-actions/blob/main/screenshots/cloudformation-stack.png)
     
     _(Shows `bongodev-github-iac-dev` stack in `UPDATE_COMPLETE` status)._
     
@@ -74,7 +74,7 @@ Automated AWS Infrastructure deployment using **CloudFormation (IaC)** and **Git
     
 -   **Action:** Inspected launched Ubuntu EC2 instance in AWS Console.
     
--   📸 **Proof (Screenshot 3):**  [📁 View EC2 Instance & Tags Screenshot](https://www.google.com/search?q=./screenshots/ec2-instance-tags.png)
+-   📸 **Proof (Screenshot 3):**  [📁 View EC2 Instance & Tags Screenshot](https://github.com/minobel/IAC-cloudformation-github-actions/blob/main/screenshots/ec2-instance-tags.png)
     
     (Shows running `t3.micro` instance with `Name`, `Environment`, and `Course` tags).
     
@@ -85,7 +85,7 @@ Automated AWS Infrastructure deployment using **CloudFormation (IaC)** and **Git
     
 -   **Action:** Accessed the public IP address in the browser.
     
--   📸 **Proof (Screenshot 4):**  [📁 View Nginx Website Screenshot](https://www.google.com/search?q=./screenshots/website-preview.png)
+-   📸 **Proof (Screenshot 4):**  [📁 View Nginx Website Screenshot](https://github.com/minobel/IAC-cloudformation-github-actions/blob/main/screenshots/website-preview.png)
     
     _(Displays live web page reading `Hello from bongoDev!` and `Environment: dev`)._
     
@@ -98,7 +98,7 @@ Automated AWS Infrastructure deployment using **CloudFormation (IaC)** and **Git
     
 -   🔗 **Commit Link:** [View Tag Modification Commit](https://github.com/minobel/IAC-cloudformation-github-actions/commit/c99f60f58e519c8384d011a4b64b71b811a4505b)
     
--   📸 **Proof (Screenshot 5):**  [📁 View Stack Update / New EC2 Tag Screenshot](https://www.google.com/search?q=./screenshots/second-push-tag.png)
+-   📸 **Proof (Screenshot 5):**  [📁 View Stack Update / New EC2 Tag Screenshot](https://github.com/minobel/IAC-cloudformation-github-actions/blob/main/screenshots/second-push-tag.png)
     
     (Shows CloudFormation update event and modified EC2 tag).
     
@@ -109,7 +109,7 @@ Automated AWS Infrastructure deployment using **CloudFormation (IaC)** and **Git
     
 -   **Action:** Deleted CloudFormation stack from AWS Console post-testing to avoid charges.
     
--   📸 **Proof (Screenshot 6):**  [📁 View Stack Cleanup Confirmation Screenshot](https://www.google.com/search?q=./screenshots/cleanup-stack.png)
+-   📸 **Proof (Screenshot 6):**  [📁 View Stack Cleanup Confirmation Screenshot](https://github.com/minobel/IAC-cloudformation-github-actions/blob/main/screenshots/cleanup-stack.png)
     
     (Shows stack deletion confirmation).
     
