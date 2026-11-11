@@ -1,11 +1,7 @@
-
-
 ```
 # AWS Infrastructure Automation with CloudFormation & GitHub Actions (OIDC)
 
-[![Deploy Ubuntu Nginx with CloudFormation](https://github.com/minobel/IAC-cloudformation-github-actions/actions/workflows/deploy.yml/badge.svg)](https://github.com/minobel/IAC-cloudformation-github-actions/actions)
-[![AWS CloudFormation](https://img.shields.io/badge/AWS-CloudFormation-orange?logo=amazon-aws)](https://aws.amazon.com/cloudformation/)
-[![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub%26nbsp%3BActions-2088FF?logo=github-actions&logoColor=white)](https://github.com/features/actions)
+[![Deploy Ubuntu Nginx with CloudFormation](https://github.com/minobel/IAC-cloudformation-github-actions/actions/workflows/deploy.yml/badge.svg)](https://github.com/minobel/IAC-cloudformation-github-actions/actions) [![AWS CloudFormation](https://img.shields.io/badge/AWS-CloudFormation-orange?logo=amazon-aws)](https://aws.amazon.com/cloudformation/) [![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?logo=github-actions&logoColor=white)](https://github.com/features/actions)
 
 ---
 
@@ -23,6 +19,7 @@ Automated AWS Infrastructure deployment using **CloudFormation (IaC)** and **Git
 ## 📂 Repository Structure
 
 ```text
+.
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml          # CI/CD Pipeline Configuration
@@ -79,12 +76,12 @@ Automated AWS Infrastructure deployment using **CloudFormation (IaC)** and **Git
     
 -   📸 **Proof (Screenshot 3):**  [📁 View EC2 Instance & Tags Screenshot](https://www.google.com/search?q=./screenshots/ec2-instance-tags.png)
     
-    _(Shows running `t3.micro` instance with `Name`, `Environment`, and `Course` tags)._
+    (Shows running `t3.micro` instance with `Name`, `Environment`, and `Course` tags).
     
 
 ### Step 5: Verify Live Web Server Application
 
--   **Key Concept:** UserData Bootstrapping & Nginx Deployment.[cite: 2]
+-   **Key Concept:** UserData Bootstrapping & Nginx Deployment[cite: 2].
     
 -   **Action:** Accessed the public IP address in the browser.
     
@@ -103,7 +100,7 @@ Automated AWS Infrastructure deployment using **CloudFormation (IaC)** and **Git
     
 -   📸 **Proof (Screenshot 5):**  [📁 View Stack Update / New EC2 Tag Screenshot](https://www.google.com/search?q=./screenshots/second-push-tag.png)
     
-    _(Shows CloudFormation update event and modified EC2 tag)._
+    (Shows CloudFormation update event and modified EC2 tag).
     
 
 ### Step 7: Teardown & Resource Cleanup
@@ -114,7 +111,7 @@ Automated AWS Infrastructure deployment using **CloudFormation (IaC)** and **Git
     
 -   📸 **Proof (Screenshot 6):**  [📁 View Stack Cleanup Confirmation Screenshot](https://www.google.com/search?q=./screenshots/cleanup-stack.png)
     
-    _(Shows stack deletion confirmation)._
+    (Shows stack deletion confirmation).
     
 
 ## 🔑 Core Concepts Summary
